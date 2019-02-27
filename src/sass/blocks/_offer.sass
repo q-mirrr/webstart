@@ -4,7 +4,7 @@
     background-size: contain
     position: relative
     &:before
-        coontent: '#' 
+        content: '' 
         width: 50%
         height: 100%
         position: absolute
@@ -22,14 +22,21 @@
     &__subtitle
         max-width: 250px
         margin-bottom: 30px
+        margin-right: 9px 
+        font-family: 'Museo Sans Light'
     &__input
         width: 240px
+        height: 65px
         margin-bottom: 30px
+        font-size: 15px
+        font-weight: 400
+        line-height: 24px
         &:first-child
             margin-right: 10px
     &__button 
         width: 100%
-        min-height:  70px 
+        min-height:  70px
+        font-family: 'Museo Sans Bold'
 @media (max-width: 1200px)
     .offer
         background-size: cover

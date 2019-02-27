@@ -109,6 +109,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   margin-top: 10px;
+  font-family: 'Museo Sans Bold';
 }
 
 /* Стили для главного экрана */
@@ -240,7 +241,7 @@ body {
 }
 
 .offer:before {
-  content: '#';
+  content: '';
   width: 50%;
   height: 100%;
   position: absolute;
@@ -264,11 +265,17 @@ body {
 .offer__subtitle {
   max-width: 250px;
   margin-bottom: 30px;
+  margin-right: 9px;
+  font-family: 'Museo Sans Light';
 }
 
 .offer__input {
   width: 240px;
+  height: 65px;
   margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .offer__input:first-child {
@@ -278,6 +285,7 @@ body {
 .offer__button {
   width: 100%;
   min-height: 70px;
+  font-family: 'Museo Sans Bold';
 }
 
 @media (max-width: 1200px) {
@@ -300,9 +308,6 @@ body {
   .offer-block {
     width: 100%;
     padding-right: 0;
-  }
-  .offer__contacts {
-    margin-top: 31px;
   }
 }
 /*# sourceMappingURL=style.css.map */
